@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  background-color: #2b2b2b;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+header {
+  padding: 20px 50px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-text {
+  margin-top: 6px;
+}
+
+.btn-sign-up {
+  display: flex;
+  padding: 0px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  color: #fff;
+  background: #a259ff;
+}
+
+/* section about */
+.right-header {
+    display: flex;
+    height: 50px;
+    width: 600px;
+}
+.ad-content {
+    display: flex;
+    align-items: center; 
+    gap:10px;
+    
+
+
+}
+.Connect-a-wallet {
+    gap: 10px; 
+    padding: 20px;
+    font-size: 16px;
+}
+.Marketplace {
+    gap: 10px; 
+    font-size: 16px;
+    padding: auto;: 20px;
+}
+.Rankings {
+    gap: 10px; 
+    font-size: 16px;
+    padding: 20px;
+}
+
+
+.section-hero {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  padding: 80px 0;
+}
+
+.hero-text {
+  max-width: 510px;
+}
+
+.hero-text h1 {
+  margin-bottom: 20px;
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 110%; /* 73.7px */
+  text-transform: capitalize;
+}
+
+.hero-text p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+}
+
+.btn-get-started {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  height: 60px;
+  margin: 30px 0 30px;
+  padding: 0px 50px;
+  border: 0;
+  border-radius: 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  color: #ffffff;
+  background-color: #a259ff;
+}
+
+.additional-info {
+  display: flex;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.card-info-value {
+  font-family: 'Space Mono', monospace;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 39.2px */
+  text-transform: capitalize;
+}
+
+.card-info-text {
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 160%; /* 38.384px */
+  text-transform: capitalize;
+}
+
+.artist-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.artist-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #3b3b3b;
+}
+
+.artist-info h3 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+}
+
+.artist-info p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.nft-cards {     /* НФТ карточки */
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 80px 0;
+  background-color: #3b3b3b;
+}
+
+.nft-card {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  border-radius: 20px;
+  background-color: #2b2b2b;
+}
+
+.nft-card-info-wrapper {
+  padding: 20px 30px 25px;
+}
+
+.nft-card-info h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+}
+
+.nft-card-info p {
+  display: flex;
+  gap: 12px;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+}
+
+.price,
+.highest-bid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.price-text,
+.highest-bid-text {
+  color: #858584;
+  font-family: Space Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 110%; /* 13.2px */
+}
+
+.price-value,
+.highest-bid-value {
+  color: #fff;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+.registration {
+  height: 691px;
+  width: 100%;
+
+}
+
+.image-10 {
+  width: 610px;
+  height: 691px;
+}
+
+.text-create-account {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 45.6px */
+  text-transform: capitalize;
+}
+
+.text-create-account-dop-inf {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+}
